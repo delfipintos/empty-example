@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-
 }
 
 body {
@@ -8,7 +7,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
 }
 
 img {
