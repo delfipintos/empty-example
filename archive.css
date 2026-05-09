@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+    background-image: url(https://i.pinimg.com/1200x/9a/af/c1/9aafc1e388a6a759fa66e75c8bc678e3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+header,
+main,
+footer {
+    border: double 4px rgb(30, 32, 32);
+    padding: 2rem;
+    background-color: white;
+    border-radius: 2px;
+    width: 350px;
+    padding: 0.5rem;
+    margin: 1rem auto;
+}
+
+h1, h2, p {
+    text-align: center;
+    color: rgb(34, 3, 3);
+    font-style: normal;
+    font-family: "Fontdiner Swanky", cursive;
+}
