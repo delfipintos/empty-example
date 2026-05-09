@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+
 }
 
 body {
@@ -7,6 +8,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    cursor: url(https://cdn.cursors-4u.net/previews/the-eiffel-tower-a89070ae-32.webp), auto;
 }
 
 img {
@@ -15,8 +17,7 @@ img {
 }
 
 header,
-main,
-footer {
+main {
     border: double 4px rgb(30, 32, 32);
     padding: 2rem;
     background-color: white;
@@ -31,4 +32,27 @@ h1, h2, p {
     color: rgb(34, 3, 3);
     font-style: normal;
     font-family: "Fontdiner Swanky", cursive;
+}
+
+h1, h2, p {
+    color: rgb(27, 27, 51);
+    transition: color 0.3s ease;
+}
+
+h1:hover, h2:hover, p:hover {
+    color: #800020;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+main {
+    padding: 0.75rem;
 }
